@@ -1,22 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World</title>
-
+    <title>Tiansheng Sui</title>
+    <script
+      src="https://kit.fontawesome.com/d814455781.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div class="jumbotron">
-      <h1 class="display-4">Tiansheng Sui</h1>
-      <p class="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p>
+    <div id="header">
+      <div class="jumbotron text-center">
+        <h1 class="display-3">Welcome to my page</h1>
+        <p class="lead">
+          Hello! My name is Tiansheng Sui. I am a fourth year Computer Science
+          student in University of Victoria.
+        </p>
+        <a href="resume.pdf" class="btn btn-outline-primary btn-bg">Resume</a>
+      </div>
+    </div>
+
+    <div id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-3">
+            <div class="card">
+              <img src="color-game.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Color Game</h5>
+                <p class="card-text">
+                  Simple web game which generates either 3 or 6 random colors,
+                  given a colour in RGB format, so user can guess the correct
+                  one.
+                </p>
+                <a
+                  href="https://tianshengsui.github.io/Color-Game-Project/"
+                  class="btn btn-outline-success btn-sm"
+                  >Check it out</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="yelpcamp.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Yelp Camp</h5>
+                <p class="card-text">
+                  Simple web game which generates either 3 or 6 random colors,
+                  given a colour in RGB format, so user can guess the correct
+                  one.
+                </p>
+                <a
+                  href="https://yelpcamp-sean.herokuapp.com/campgrounds"
+                  class="btn btn-outline-success btn-sm"
+                  >Check it out</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script
