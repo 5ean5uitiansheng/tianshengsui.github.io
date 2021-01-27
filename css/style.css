@@ -45,3 +45,16 @@
 .about-title{
     margin-bottom: 3rem;
 }
+
+.projects-title{
+    margin-bottom: 3rem;
+}
+
+#projects{
+    padding: 5rem 0;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
