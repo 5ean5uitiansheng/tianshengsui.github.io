@@ -8,7 +8,7 @@
     font-size: 30px;
 }
 
-.homepage{
+#homepage{
     background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -31,28 +31,17 @@
     color: white;
 }
 
-.about{
-    width: 60%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+#about{
+    padding: 5rem 0;
 }
-
-.about-title{
-    text-align: center;
+.about-pic{
+    width: 60%;
 }
 
 .about-content{
-    display: flex;
+    line-height: 40px;
 }
 
-.about-text{
-    line-height: 60px;
-}
-.about-img img{
-    width: 80%;
-    display: block;
-    border-radius: 40%;
-    margin-left: 20px;
+.about-title{
+    margin-bottom: 3rem;
 }
