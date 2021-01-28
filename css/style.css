@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+hr{
+    width: 20%;
+    border:0;
+    height: 4px !important;
+    background-image: linear-gradient(to right#2c3e50, #bdc3c7);
+}
 .navbar-brand{
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
