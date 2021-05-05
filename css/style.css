@@ -1,77 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-hr{
-    width: 20%;
-    border:0;
-    height: 4px !important;
-    background-image: linear-gradient(to right#2c3e50, #bdc3c7);
+hr {
+  width: 20%;
+  border: 0;
+  height: 4px !important;
+  background-image: linear-gradient(to right#2c3e50, #bdc3c7);
 }
-.navbar-brand{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
-}
-
-#homepage{
-    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    height: 95vh;
-    position: relative;
+.navbar-brand {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
 }
 
-.homepage-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    color: white;
+#homepage {
+  background: linear-gradient(
+    to top,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 98vh;
+  position: relative;
 }
 
-#about{
-    padding: 5rem 0;
-}
-.about-pic{
-    width: 60%;
-}
-
-.about-content{
-    line-height: 40px;
-}
-
-.about-title{
-    margin-bottom: 3rem;
-}
-
-.projects-title{
-    margin-bottom: 3rem;
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
 }
 
-#projects{
-    padding: 5rem 0;
+.fab {
+  color: white;
+}
+#about {
+  padding: 5rem 0;
+}
+.about-pic {
+  width: 60%;
 }
 
-.card-img-top{
-    height: 300px;
+.about-content {
+  line-height: 40px;
 }
 
-#contact{
-    padding: 5rem 0;
+.about-title {
+  margin-bottom: 3rem;
 }
 
-.contact-title{
-    margin-bottom: 3rem;
+.projects-title {
+  margin-bottom: 3rem;
 }
 
-.contact-info{
-    width: 40%;
+#projects {
+  padding: 5rem 0;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+#contact {
+  padding: 5rem 0;
+}
+
+.contact-title {
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  width: 40%;
 }
