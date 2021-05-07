@@ -52,7 +52,10 @@ hr {
 }
 
 .about-content {
-  line-height: 40px;
+  line-height: 50px;
+  margin-top: 50px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-title {
