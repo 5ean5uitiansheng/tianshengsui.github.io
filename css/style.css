@@ -9,6 +9,11 @@ hr {
   height: 4px !important;
   background-image: linear-gradient(to right#2c3e50, #bdc3c7);
 }
+
+.navbar {
+  padding: 0.75rem;
+}
+
 .navbar-brand {
   font-family: "Permanent Marker", cursive;
   font-size: 30px;
