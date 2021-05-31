@@ -49,16 +49,18 @@ hr {
 .social-media .btn {
   color: white;
 }
+
 #about {
   padding: 5rem 0;
 }
+
 .about-pic {
-  width: 60%;
+  width: 50%;
+  margin-bottom: 30px;
 }
 
 .about-content {
   line-height: 50px;
-  margin-top: 50px;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -77,4 +79,8 @@ hr {
 
 .card-img-top {
   height: 300px;
+}
+
+.project-card {
+  margin-bottom: 20px;
 }
