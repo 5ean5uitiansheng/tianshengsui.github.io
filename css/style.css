@@ -50,9 +50,9 @@ hr {
   margin-bottom: 3rem;
 }
 
-/* #projects {
-  padding: 5rem 0;
-} */
+.project-badges {
+  font-size: 1.2rem;
+}
 
 .card-img-top {
   height: 300px;
