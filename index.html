@@ -59,7 +59,7 @@
       <div class="vstack gap-2 col-md-5 mx-auto text-center homepage-content">
         <img
           src="img/Me.jpg"
-          class="about-pic rounded-circle d-block mx-auto"
+          class="profile-pic rounded-circle d-block mx-auto"
           alt="profile picture"
         />
         <h1>Tiansheng (Sean) Sui</h1>
@@ -81,89 +81,90 @@
       </div>
     </div>
 
-    <div id="projects">
-      <div class="container">
-        <div class="projects-title text-center">
-          <h2 class="display-4">Projects</h2>
-          <hr class="mx-auto" />
+    <!-- Projects Section -->
+    <div class="container mt-5">
+      <div class="section-header text-center">
+        <h2 class="display-4">Projects</h2>
+        <hr class="mx-auto" />
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 project-card">
+          <div class="card h-100">
+            <img src="img/project-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Employee Management System</h5>
+              <p class="card-text lead">
+                Fully-functional Node.js web application, used to create, read,
+                update and delete employee records with a login system.
+              </p>
+              <a
+                href="https://management-nodejs.herokuapp.com/employees"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-lg btn-outline-primary"
+                ><i class="fas fa-external-link-alt"></i> View Demo</a
+              >
+              <a
+                href="https://github.com/tianshengsui/RESTful-Employee-Management-System"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-lg btn-outline-primary"
+                ><i class="fab fa-github"></i> View Source</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-md-6 project-card">
-            <div class="card h-100">
-              <img src="img/project-1.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Employee Management System</h5>
-                <p class="card-text lead">
-                  Fully-functional Node.js web application, used to create,
-                  read, update and delete employee records with a login system.
-                </p>
-                <a
-                  href="https://management-nodejs.herokuapp.com/employees"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-lg btn-secondary"
-                  >View Demo</a
-                >
-                <a
-                  href="https://github.com/tianshengsui/RESTful-Employee-Management-System"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-lg btn-secondary"
-                  >View Source</a
-                >
-              </div>
+        <div class="col-12 col-md-6 project-card">
+          <div class="card h-100">
+            <img src="img/project-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Weather Forecast App</h5>
+              <p class="card-text lead">
+                Simple web app to display current weather given any city around
+                the world, using Weatherbit API and Google Places API.
+              </p>
+              <a
+                href="https://weather-app-sean.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-lg btn-outline-primary"
+                ><i class="fas fa-external-link-alt"></i> View Demo</a
+              >
+              <a
+                href="https://github.com/tianshengsui/Weather-App"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-lg btn-outline-primary"
+                ><i class="fab fa-github"></i> View Source</a
+              >
             </div>
           </div>
-          <div class="col-12 col-md-6 project-card">
-            <div class="card h-100">
-              <img src="img/project-2.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Weather Forecast App</h5>
-                <p class="card-text lead">
-                  Simple web app to display current weather given any city
-                  around the world, using Weatherbit API and Google Places API.
-                </p>
-                <a
-                  href="https://weather-app-sean.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-lg btn-secondary"
-                  >View Demo</a
-                >
-                <a
-                  href="https://github.com/tianshengsui/Weather-App"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-lg btn-secondary"
-                  >View Source</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 project-card">
-            <div class="card h-100">
-              <img src="img/project-3.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Todo List App</h5>
-                <p class="card-text lead">
-                  A simple todo list web app built with MERN stack (MongoDB,
-                  Express, React, Node).
-                </p>
-                <a
-                  href="https://mern-todo-sean.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-lg btn-secondary"
-                  >View Demo</a
-                >
-                <a
-                  href="https://github.com/tianshengsui/MERN-Todo-App"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-lg btn-secondary"
-                  >View Source</a
-                >
-              </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 project-card">
+          <div class="card h-100">
+            <img src="img/project-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Todo List App</h5>
+              <p class="card-text lead">
+                A simple todo list web app built with MERN stack (MongoDB,
+                Express, React, Node).
+              </p>
+              <a
+                href="https://mern-todo-sean.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-lg btn-outline-primary"
+                ><i class="fas fa-external-link-alt"></i> View Demo</a
+              >
+              <a
+                href="https://github.com/tianshengsui/MERN-Todo-App"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-lg btn-outline-primary"
+                ><i class="fab fa-github"></i> View Source</a
+              >
             </div>
           </div>
         </div>

@@ -41,32 +41,18 @@ hr {
   color: white;
 }
 
-#about {
-  padding: 5rem 0;
-}
-
-.about-pic {
+.profile-pic {
   width: 30%;
   margin-bottom: 30px;
 }
 
-.about-content {
-  line-height: 50px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.about-title {
+.section-header {
   margin-bottom: 3rem;
 }
 
-.projects-title {
-  margin-bottom: 3rem;
-}
-
-#projects {
+/* #projects {
   padding: 5rem 0;
-}
+} */
 
 .card-img-top {
   height: 300px;
