@@ -46,6 +46,10 @@ hr {
   margin-bottom: 30px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .section-header {
   margin-bottom: 3rem;
 }
